@@ -32,7 +32,7 @@ exports.createOrder = async (req, res) => {
   };
 
 
-  // Delete a product by ID
+  // Delete a order by ID
   exports.deleteOrder = async (req, res) => {
     try {
       const order = await Order.findByIdAndDelete(req.params.orderId);

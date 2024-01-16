@@ -31,7 +31,7 @@ exports.createUser = async (req, res) => {
     }
 };
 
-  // Delete a product by ID
+  // Delete a user by ID
 exports.deleteUserById = async (req, res) => {
     try {
       const user = await User.findByIdAndDelete(req.params.userId);
@@ -44,7 +44,7 @@ exports.deleteUserById = async (req, res) => {
     }
 };
 
-// Update an order by ID
+// Update an user by ID
 exports.UpdateUser = async (req, res) => {
     try {
       const user = await User.findByIdAndUpdate(
