@@ -2,7 +2,7 @@
 
  This is a Node.js Api project that handles the logic of an online shopping cart of a user.
  The user can see all the products available to him and chooce what to place in his order. If the user is admin, that means he
- can oversee all the orders available. The products, the users and the orders are stored in a database in the mongodb atlas and mongoose handles the transactions in the schema.
+ can see all the orders available. The products, the users ,the orders and the cart details are stored in a database in the mongodb atlas and mongoose handles the transactions in the schema.
  All the necessary routes can also be seen in a Postman collection, as the whole logic evolves around the REST protocol. The front end is handled by React.js.
  
 ## Installation
@@ -14,13 +14,8 @@
 ## Usage
 
 This project is mainly a back end project that handles the api routes via postman. In the main page you can see as an admin all the orders that have been made by the users and via Postman
-you can handle all the logic of the shopping cart. The postman contains in a collection all the api calls available.
+you can handle all the logic of the shopping cart. Postman contains a collection of all the api calls available. Please refer to the collection file in order to make the available api calls.
 
-## Features
-
-- Feature 1
-- Feature 2
-- ...
 
 ## Contributing
 
