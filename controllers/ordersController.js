@@ -21,7 +21,6 @@ exports.getAllOrders = async (req, res) => {
     }
   };
 
-// exports.createOrder = () => {return true};
 exports.createOrder = async (req, res) => {
     try {
       const order = await Order.create(req.body);
@@ -32,7 +31,7 @@ exports.createOrder = async (req, res) => {
   };
 
 
-  // Delete a order by ID
+  // Delete an order by ID
   exports.deleteOrder = async (req, res) => {
     try {
       const order = await Order.findByIdAndDelete(req.params.orderId);

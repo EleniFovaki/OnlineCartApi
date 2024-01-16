@@ -21,7 +21,6 @@ exports.getUserById = async (req, res) => {
     }
 };
 
-// exports.createOrder = () => {return true};
 exports.createUser = async (req, res) => {
     try {
       const user = await User.create(req.body);

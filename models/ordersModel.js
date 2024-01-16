@@ -16,6 +16,11 @@ const orderSchema = new mongoose.Schema({
   ],
   total: Number,
   orderDate: Date,
+  state: {
+    type: String,
+    enum: ['send', 'in progress', 'done'],
+    default: 'in progress',
+  },
 });
 
 const Order = mongoose.model('Order', orderSchema);
